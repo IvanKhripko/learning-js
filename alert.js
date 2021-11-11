@@ -325,3 +325,23 @@
 // if (-1 || 0) alert( 'first' ); //первое число -1 тру выполнит алерт.
 // if (-1 && 0) alert( 'second' ); // вернет второе значение т.к. возвращает фолс не выполнит алерт
 // if (null || -1 && 1) alert( 'third' );// вернет 1 тру выполнит алерт
+
+/*
+Напиши скрипт, которій просит пользователя ввести число и степень
+возводит число в эту степень и выводит результат в консоль
+*/
+/*
+const userNumber = prompt("Введите число!", "");
+const userPower = prompt("Введите степень!", "");
+
+let result = Number(userNumber ** userPower);
+console.log(result);
+*/
+/*
+const userNumber = prompt("Введите число!", "");
+const userPower = prompt("Введите степень!", "");
+
+let result = userNumber ** userPower;
+console.log(Number(result));
+*/
+
